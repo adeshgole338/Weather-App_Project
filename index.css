@@ -1,0 +1,82 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;       
+}
+
+.container{
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+   /*background-image: linear-gradient(to left, rgb(248, 245, 239),  rgb(117, 117, 216));*/  
+    background-repeat:no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}    
+
+.weather-app{
+    height: 300px;
+    width: 500px;
+    border-radius: 20px;
+    overflow: hidden;
+    padding: 20px;
+    box-shadow: 0px 0px 8px rgb(248, 205, 205);
+    background-image: url('https://i.pinimg.com/originals/79/35/fd/7935fdf1fe2c5dd8205de03a214befb0.gif');
+    background-repeat:no-repeat;
+    background-position:center;
+    background-attachment:fixed ;
+    background-size: 500px; 
+}
+
+body{
+        background-image: url('https://i.pinimg.com/originals/05/bd/e4/05bde4c8cf2e0f2debabd56ae1589e4d.gif'); 
+        background-repeat:no-repeat;
+        background-size:cover;
+  }
+
+#cityname{
+    border: none;
+    outline: none;
+    border-bottom: 2px solid black;
+}
+
+#head{
+    padding-left: 50px;
+    color: rgb(49, 78, 140);  
+    font-family: sans-serif; 
+
+}
+
+#input{
+    font-family: cursive;
+}
+
+.Fbutton{
+    height: 30px;
+    width: 70px;
+    color: white;
+    background-color: royalblue;
+    border: none;
+    font-weight: bolder;
+    border-radius: 10px;
+    transition-duration: 1s;
+}
+
+.Fbutton:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 0px 20px royalblue;
+    color: royalblue;
+    background-color: white;
+    border: 2px solid royalblue;
+}
+
+.weather-app:hover{   
+     transform: scale(1.1); 
+     transition-duration: 1s;
+	box-shadow: 0px 0px 20px royalblue;
+	            
+} 
